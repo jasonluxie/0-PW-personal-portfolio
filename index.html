@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <nav class="navbar" id="navbar">
+            <ul class="navbar_list">
+                <li>
+                    <a href="#contact" class="nav-link">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link">My Projects</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="hero" id="welcome-section">
+            <div class="hero_text">
+                <h1>Jason Xie</h1>
+                <p>aspiring web developer</p>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            <h2 class="projects_header">Sample Projects</h2>
+            <div class="projects_grid" id="project-grid">
+                <a
+                    href="https://codepen.io/jasonluxie/full/QWgwjEW"
+                    target="_blank"
+                    class="projects_grid_tile"
+                >
+                    <img
+                        class="project_grid_image"
+                        src="https://cdn.discordapp.com/attachments/678404827474296847/885338509584523304/SurveyFrom.png"
+                        alt="Survey-Form-Project"
+                    />
+                    <p class="project-title">Survey Form</p>
+                </a>
+
+                <a
+                    href="https://codepen.io/jasonluxie/full/YzQGXGj"
+                    target="_blank"
+                    class="projects_grid_tile"
+                >
+                    <img
+                        class="project_grid_image"
+                        src="https://cdn.discordapp.com/attachments/678404827474296847/885338507005034539/ProductLanding.png"
+                        alt="Product-Landing-Project"
+                    />
+                    <p class="project-title">Product Landing Page</p>
+                </a>
+
+                <a
+                    href="https://codepen.io/jasonluxie/full/MWoJebJ"
+                    target="_blank"
+                    class="projects_grid_tile"
+                >
+                    <img
+                        class="project_grid_image"
+                        src="https://cdn.discordapp.com/attachments/678404827474296847/885338509408354334/TechnicalDocumentation.png"
+                        alt="Technical-Documentation-Project"
+                    />
+                    <p class="project-title">Tech Documentation</p>
+                </a>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <form
+                action="https://www.freecodecamp.org/email-submit"
+                id="contact_form"
+            >
+                <label class="contact_form_text" for="email">
+                    Leave your email for inquiries!
+                </label>
+                <div class="contact_input">
+                    <input
+                        name="email"
+                        type="email"
+                        id="email"
+                        class="contact_form_email"
+                        placeholder="Put an email in me"
+                        required
+                    />
+                    <input
+                        id="submit"
+                        class="contact_form_button"
+                        type="submit"
+                        value="Submit"
+                        class="btn"
+                    />
+                </div>
+            </form>
+        </div>
+    </body>
+    <!-- <footer></footer> -->
+</html>
